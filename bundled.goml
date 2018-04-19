@@ -273,13 +273,13 @@
 </scene-slide> -->
 
   <!--Slide 19-->
- <scene-slide bgColor="white">
+ <!-- <scene-slide bgColor="white">
   <camera/>
   <mesh geometry="quad" material="new(bg-shader)" colorBase="#00FBFF"/>
   <div class="slide-md-container">
     <markdown src="./gomls/infoproc/future.md" class="default-markdown"/>
   </div>
-</scene-slide>
+</scene-slide> -->
 
   <renderer>
     <render-slide-hitarea>
