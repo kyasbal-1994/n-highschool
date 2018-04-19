@@ -40,13 +40,13 @@
 </scene-slide>
 
   <!--Slide 2-->
-  <scene-slide build="1" bgColor="white">
+  <!-- <scene-slide build="1" bgColor="white">
   <camera/>
   <mesh geometry="quad" material="new(bg-shader)"/>
   <div class="slide-md-container">
     <markdown src="./gomls/infoproc/agenda.md" class="default-markdown"/>
   </div>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 3-->
   <scene-slide>
@@ -146,13 +146,13 @@
 </scene-slide>
 
   <!--Slide 11-->
-  <scene-slide build="2" bgColor="white">
+  <!-- <scene-slide build="2" bgColor="white">
   <camera/>
   <mesh geometry="quad" material="new(bg-shader)"/>
   <div class="slide-md-container">
     <markdown src="./gomls/infoproc/usage-matome.md" class="default-markdown"/>
   </div>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 12-->
   <scene-slide>
@@ -200,9 +200,17 @@
     </div>
   </div>
 </scene-slide>
+<!-- 
+  <scene-slide bgColor="white">
+  <camera/>
+  <mesh geometry="quad" material="new(bg-shader)"/>
+  <div class="slide-md-container">
+    <markdown src="./gomls/n/highschool.md" class="default-markdown"/>
+  </div>
+</scene-slide> -->
 
   <!--Slide 14-->
-  <scene-slide build="5" bgColor="black">
+  <!-- <scene-slide build="5" bgColor="black">
   <object class="editor-content-container">
     <camera/>
     <mesh class="mesh1" geometry="cube" material="new(unlit)" color="red"/>
@@ -211,10 +219,10 @@
   <editor src="./resources/include.html" inBuild="1" outBuild="2" runButton="false" language="html"/>
   <editor id="simple-goml-container" src="./resources/simple.goml" inBuild="2" outBuild="3" runButton="true" language="xml"/>
   <editor src="./resources/empty.js" inBuild="3" outBuild="4" runButton="true"/>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 15-->
-  <scene-slide build="2" bgColor="black">
+  <!-- <scene-slide build="2" bgColor="black">
   <object class="editor-content-container">
     <camera>
       <camera.components>
@@ -224,10 +232,10 @@
     <mesh geometry="cube" material="new(unlit)" color="red"/>
   </object>
   <editor src="./resources/mouse.goml" inBuild="0" outBuild="1" runButton="true" language="xml"/>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 16-->
-  <scene-slide build="3" bgColor="black">
+  <!-- <scene-slide build="3" bgColor="black">
   <camera>
     <camera.components>
       <MouseCameraControl/>
@@ -237,10 +245,10 @@
   <light/>
   <editor src="./resources/rotate.goml" inBuild="1" outBuild="2" runButton="false" language="xml"/>
   <editor src="./resources/rotate2.goml" inBuild="2" outBuild="3" runButton="false" language="xml"/>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 17-->
-  <scene-slide build="2" bgColor="black">
+  <!-- <scene-slide build="2" bgColor="black">
   <camera>
     <camera.components>
       <MouseCameraControl/>
@@ -253,19 +261,19 @@
   </model>
   <light/>
   <editor id="source-container" src="./resources/rotate.ts" inBuild="1" outBuild="2" language="typescript" runButton="false"/>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 18-->
-  <scene-slide build="2" bgColor="white">
+  <!-- <scene-slide build="2" bgColor="white">
   <camera/>
   <mesh geometry="quad" material="new(bg-shader)"/>
   <div class="slide-md-container">
     <markdown src="./gomls/infoproc/unique2.md" class="default-markdown"/>
   </div>
-</scene-slide>
+</scene-slide> -->
 
   <!--Slide 19-->
-  <scene-slide build="4" bgColor="white">
+ <scene-slide bgColor="white">
   <camera/>
   <mesh geometry="quad" material="new(bg-shader)" colorBase="#00FBFF"/>
   <div class="slide-md-container">
